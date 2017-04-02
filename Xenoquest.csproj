@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{8C51CD0C-09DF-5E3F-5D09-A6549C7CFECD}</ProjectGuid>
+    <ProjectGuid>{0AE3FFAA-C0A3-68B0-691B-3AFE9BD697C7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -75,8 +75,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CController.cs" />
-    <Compile Include="Assets\Scripts\Character.cs" />
+    <Compile Include="Assets\GetCharacterDetails.cs" />
+    <Compile Include="Assets\PlayerCharacter.cs" />
+    <Compile Include="Assets\Scripts\DisplayAge.cs" />
     <Compile Include="Assets\Scripts\MenuNav.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

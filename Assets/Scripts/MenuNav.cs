@@ -23,4 +23,8 @@ public class MenuNav : MonoBehaviour {
     public void ViewXenodex() {
         Debug.Log("Viewing porn. Kidding! Not implmented yet ;D ;D ;D ;D");
     }
+
+    public void ConfirmName() {
+
+    }
 }
