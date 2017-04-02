@@ -6,19 +6,18 @@ using UnityEngine.UI;
 public class GetCharacterDetails : MonoBehaviour {
 
     public PlayerCharacter pc;
-    private Text displayText;
+    public Text details;
 
     public void Start() {
-        displayText = GetComponent<Text>();
+        
     }
 
     public void UpdateText() {
-        displayText.text += pc.GetName();
-        displayText.text += "" + pc.GetAge();
-        displayText.text += pc.GetGender();
-        displayText.text += pc.GetOccupation();
-        displayText.text += pc.GetCreed();
-        displayText.text += pc.GetFetish();
+        Debug.Log(pc.GetFetish());
+        details.text = " Name: " +  pc.GetName() + "\n Age: " + pc.GetAge() + "\n Gender: " + pc.GetGender() + 
+            "\n Former Occupation: " + pc.GetOccupation() + "\n Creed: \n " + pc.GetCreed() + "\n Fetish: " + pc.GetFetish();
     }
+
+
 }
 

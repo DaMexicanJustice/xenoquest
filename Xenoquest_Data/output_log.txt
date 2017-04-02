@@ -17,13 +17,13 @@ Platform assembly: I:\Unity Projects\Xenoquest\Xenoquest_Data\Managed\UnityEngin
 Loading I:\Unity Projects\Xenoquest\Xenoquest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: I:\Unity Projects\Xenoquest\Xenoquest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading I:\Unity Projects\Xenoquest\Xenoquest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.113 seconds
+- Completed reload, in  0.174 seconds
 Platform assembly: I:\Unity Projects\Xenoquest\Xenoquest_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: I:\Unity Projects\Xenoquest\Xenoquest_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.229534 ms
+UnloadTime: 1.155639 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 27a0 -> priority: 1 
+  Thread -> id: 1b38 -> priority: 1 
