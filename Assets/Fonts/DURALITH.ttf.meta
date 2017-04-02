@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 554c24f7f36d4074c9f62920e214fd0b
+timeCreated: 1491145585
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Duralith
+  fontNames:
+  - Duralith
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

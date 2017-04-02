@@ -4,15 +4,71 @@ using UnityEngine;
 
 public class PlayerCharacter : MonoBehaviour {
 
-    private string playerName;
-    private int age;
-    private string gender;
-    private string former_occupation;
-    private string creed;
-    private string fetish;
+    // Basic
+     string playerName;
+     int age;
+     string gender;
+     string former_occupation;
+     string creed;
+     string fetish;
 
-    public void Update() {
-  
+    // Action Stats
+    int strength;
+    int willpower;
+    int persuasion;
+    int endurance;
+    int allure;
+    int swiftness;
+    int maxHP;
+    int curHP;
+    int maxWill;
+    int curWill;
+
+    // Personality Stats
+    int alignmentPoints;
+    public enum Alignment { Wicked, Douchebag, Neutral, Honorable, Righteous};
+    public Alignment alignment = Alignment.Neutral;
+    int sexperience;
+
+    public void SetAlignmentPoints(int val) {
+        alignmentPoints = val;
+        UpdateAlignment();
+    }
+
+    public void IncreaseAlignment(int val) {
+        alignmentPoints += val;
+        UpdateAlignment();
+    }
+
+    public void DecreaseAlignment(int val) {
+        alignmentPoints -= val;
+        UpdateAlignment();
+    }
+
+    public int GetAlignmentPoints() {
+        return alignmentPoints;
+    }
+
+    void UpdateAlignment() {
+        if (alignmentPoints <= 10)
+        {
+            alignment = Alignment.Wicked;
+        }
+        else if (alignmentPoints <= 40)
+        {
+            alignment = Alignment.Douchebag;
+        }
+        else if (alignmentPoints >= 41 && alignmentPoints <= 59)
+        {
+            alignment = Alignment.Neutral;
+        }
+        else if (alignmentPoints >= 60)
+        {
+            alignment = Alignment.Honorable;
+        }
+        else if (alignmentPoints >= 90) {
+            alignment = Alignment.Righteous;
+        }
     }
 
     public void SetName(string n) {
@@ -49,6 +105,42 @@ public class PlayerCharacter : MonoBehaviour {
 
     public void SetCreed(string c) {
         creed = c;
+        CheckCreed(creed);
+    }
+
+    void CheckCreed(string c) {
+        switch (c) {
+            case "I will have it my way - or it won’t be let to exist at all":
+                SetAlignmentPoints(30);
+                break;
+            case "Some people just want to see the world burn. I’m one of those guys":
+                SetAlignmentPoints(30);
+                break;
+            case "Will it kill me? Can I eat it? Can I fuck it":
+                SetAlignmentPoints(40);
+                break;
+            case "Your problems are just that. Yours":
+                SetAlignmentPoints(40);
+                break;
+            case "Live and let live.":
+                SetAlignmentPoints(50);
+                break;
+            case "I’ll help you. For a price.":
+                SetAlignmentPoints(50);
+                break;
+            case "I always stay true to my word":
+                SetAlignmentPoints(60);
+                break;
+            case "Crime never pays.":
+                SetAlignmentPoints(60);
+                break;
+            case "I don’t need a reason to help people":
+                SetAlignmentPoints(70);
+                break;
+            case "Always be kind if it’s possible. It’s always possible":
+                SetAlignmentPoints(70);
+                break;
+        }
     }
 
     public string GetCreed() {
