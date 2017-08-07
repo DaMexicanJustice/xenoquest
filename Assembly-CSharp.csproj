@@ -54,13 +54,18 @@
      <Compile Include="Assets\Scripts\Characters\AdvancedCharacter.cs" />
      <Compile Include="Assets\Scripts\Characters\BaseCharacter.cs" />
      <Compile Include="Assets\Scripts\Characters\Fling.cs" />
-     <Compile Include="Assets\Scripts\Characters\Player.cs" />
      <Compile Include="Assets\Scripts\Characters\PlayerCharacter.cs" />
      <Compile Include="Assets\Scripts\Characters\Waifu.cs" />
-     <Compile Include="Assets\Scripts\Conversation.cs" />
-     <Compile Include="Assets\Scripts\Dialogue.cs" />
-     <Compile Include="Assets\Scripts\HScene.cs" />
+     <Compile Include="Assets\Scripts\Interaction\Conversation.cs" />
+     <Compile Include="Assets\Scripts\Interaction\Dialogue.cs" />
+     <Compile Include="Assets\Scripts\Interaction\HScene.cs" />
+     <Compile Include="Assets\Scripts\Items\Accessory.cs" />
+     <Compile Include="Assets\Scripts\Items\BaseItem.cs" />
+     <Compile Include="Assets\Scripts\Items\Weapon.cs" />
      <Compile Include="Assets\Scripts\Main Menu\MenuNav.cs" />
+     <Compile Include="Assets\Scripts\World\Area.cs" />
+     <Compile Include="Assets\Scripts\World\Location.cs" />
+     <Compile Include="Assets\Scripts\World\World.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>I:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
