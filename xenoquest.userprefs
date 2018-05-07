@@ -1,8 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Utils\CanvasTester.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Editor\CriteriaEditor.cs">
     <Files>
-      <File FileName="Assets\Scripts\Utils\CanvasTester.cs" Line="13" Column="56" />
+      <File FileName="Assets\Scripts\Flow\Criteria.cs" Line="9" Column="18" />
+      <File FileName="Assets\Editor\CriteriaEditor.cs" Line="38" Column="30" />
+      <File FileName="Assets\Scripts\Items\BaseItem.cs" Line="3" Column="19" />
+      <File FileName="Assets\Scripts\Quests\BaseQuest.cs" Line="5" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -69,6 +69,11 @@
      <Compile Include="Assets\Scripts\Characters\Trait.cs" />
      <Compile Include="Assets\Scripts\Characters\Vitals.cs" />
      <Compile Include="Assets\Scripts\Characters\Waifu.cs" />
+     <Compile Include="Assets\Scripts\Flow\Criteria.cs" />
+     <Compile Include="Assets\Scripts\Flow\CriteriaOptions.cs" />
+     <Compile Include="Assets\Scripts\Items\BaseItem.cs" />
+     <Compile Include="Assets\Scripts\Quests\BaseQuest.cs" />
+     <Compile Include="Assets\Scripts\Systems\Node\Criteria\CriteriaNode.cs" />
      <Compile Include="Assets\Scripts\Systems\Node\Dialog\DialogNode.cs" />
      <Compile Include="Assets\Scripts\Systems\Node\Dialog\MultiOptionsNode.cs" />
      <Compile Include="Assets\Scripts\Systems\Node\Dialog\MultipleChoiceNode.cs" />
